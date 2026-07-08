@@ -739,5 +739,58 @@ setTimeout(fabShow,600);setTimeout(fabShow,2000);
 })();
 </script>
 <!--WY-SEARCH:END-->
+<!--WY-C52P1:BEGIN-->
+<style id="wy-c52p1-css">
+.c52p1-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c52p1-fabbox.show{display:block;}
+.c52p1-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c52p1-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c52p1-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c52p1-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c52p1-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c52p1-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c52p1-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c52p1-modal.open{display:flex;}
+.c52p1-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c52p1-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c52p1-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c52p1-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c52p1-close:hover{background:#e3d5b8;}
+.c52p1-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c52p1-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c52p1-tbl th,.c52p1-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c52p1-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c52p1-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c52p1-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c52p1-tbl b{color:#8b2500;}
+.c52p1-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c52p1-note b{color:#8b2500;}
+@media(max-width:900px){.c52p1-fabbox{right:14px;}.c52p1-tbl{font-size:11.5px;}.c52p1-card{padding:26px 14px 16px;}}
+</style>
+<div class="c52p1-fabbox" id="c52p1Box"><button class="c52p1-btn" id="c52p1Btn" type="button" aria-label="開啟全景總表"><span class="c52p1-ic">▦</span><span class="c52p1-ls"><span class="c52p1-l1">本品 · 會宗品</span><span class="c52p1-l2">隨順攝歸 · 體性無二</span></span></button></div><div class="c52p1-modal" id="c52p1Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c52p1-card"><button class="c52p1-close" id="c52p1Close" type="button" aria-label="關閉">×</button><h3>卷五十二·第一品 釋會宗品 · 全景總表</h3><p class="sub">卷五十二・第一品｜富樓那致問・隨順攝歸・助道法統攝・體性無二・二諦圓融</p><table class="c52p1-tbl"><caption>一、開卷之問與論證藍圖（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心公理</td><td>富樓那問「佛使須菩提為諸菩薩說般若波羅蜜，今乃說<b>摩訶衍</b>為？」——名既不同，義是否亦異？佛答「汝說摩訶衍，隨順般若波羅蜜，不離般若波羅蜜」</td></tr><tr><td>認知拓撲</td><td>三人對話鏈：富樓那自無疑代為發問→新學鈍根者著於名相衍生疑慮→須菩提向佛確認求證——非針對一人，而是對治一切著於名相的心智模型</td></tr><tr><td>四階論證藍圖</td><td>發起疑問（破名相執著）→佛陀印證（確立隨順關係）→展開論證（萬法歸攝涅槃）→究竟結論（體性無二無別）</td></tr><tr><td>隨順釋義</td><td>非兩物物理相加，而是「方向與體性的絕對一致」——摩訶衍隨順般若，即凡所修廣大行門，其指向與體性原與般若同一</td></tr><tr><td>目的論攝歸</td><td>【論】「一切三乘善法皆為涅槃故」——百川入海，源頭雖異，入海後皆同一味；此即「會宗」二字的動力學寫照</td></tr></tbody></table><table class="c52p1-tbl"><caption>二、助道法統攝結構與大乘乘數公式</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三類分判</td><td>三十七品、三解脫門是三乘共法；六波羅蜜是菩薩法；十力乃至常捨行是佛法——一切法皆是修行的積木</td></tr><tr><td>具足與不具足</td><td>六波羅蜜「不具足者共二乘法，具足者獨菩薩法」——差別不在所修之法，而在能修之心（執相未破 vs 般若攝持）</td></tr><tr><td>乘數公式</td><td>修一切善法（變數）× 無所得心／通達空無相（乘數）＝ 摩訶衍（大乘）——善法本身無大小乘之分，決定維度者是無所得心</td></tr><tr><td>第一論證·空義一故</td><td>摩訶衍空，般若波羅蜜亦空，空義一故，須菩提隨順無錯——底層皆空，基座無別</td></tr><tr><td>第二論證·同相故</td><td>從般若乃至涅槃，皆不合不散、無色無形無對，一相所謂無相——千差萬別同收一相</td></tr><tr><td>第三論證·無二無別</td><td>空義一、同一相，則摩訶衍與般若、乃至十八不共法彼此不異，無二無別</td></tr></tbody></table><table class="c52p1-tbl"><caption>三、從本體到修證·中觀總攝</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三解脫門</td><td>涅槃門有三：空、無相、無作——是把世間善法轉化為出世間涅槃的轉換器，一切善法不經此三門只是世間福業</td></tr><tr><td>關鍵閥門</td><td>持戒能生禪定，禪定能生實智慧，「<b>不著世間</b>」故——此四字是過濾閥，缺之戒定僅止於人天福報</td></tr><tr><td>隨順的實踐</td><td>非棄絕萬法枯坐頑空，而是於萬法運作的當下，洞見其因緣和合、本無自性，修一切善法而心無所得</td></tr><tr><td>三階觀察模型</td><td>世俗諦（名異／假名不同）→勝義諦（體空／空義一故）→中道觀（即俗即真／一相無相）</td></tr><tr><td>中觀解構公式</td><td>名（現象）→用（向量）→體（本體）：見名相之異而不執，循向量之同而隨順，證體性之空而無別</td></tr><tr><td>終極洞見</td><td>「本體無相，隨順萬法」——體用不二、即俗即真，正是會宗品「會通眾法、攝歸般若」的究竟旨歸</td></tr></tbody></table><p class="c52p1-note">會宗品以「摩訶衍是否即般若」的名相之疑為引子，實則演一場精密的哲學過渡：從世俗諦的語言執著出發，經體性本空的勝義洞見，終抵中道圓融的無二無別。<b>名字雖異，趣向無二</b>——一切三乘善法皆因同歸涅槃而攝入般若，六度乃至十八不共法無不與摩訶衍同一空性、同一無相。體用不二、即俗即真，正是「會通眾法、攝歸般若」的究竟旨歸。</p></div></div>
+<script id="wy-c52p1-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c52p1Btn"),BOX=document.getElementById("c52p1Box"),MODAL=document.getElementById("c52p1Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=0;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoBtn,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c52p1Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C52P1:END-->
 </body>
 </html>
